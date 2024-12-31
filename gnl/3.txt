@@ -1,0 +1,9 @@
+a set of objects joined together in a row on a single rope or thread: string of beads/pearls She wore a neat
+
+ome kind of variable. The lat
+
+
+Strings - Manual 
+
+
+JavaScript. A JavaScript string stores a series of characters like "John Doe". A string can be any text inside double or single quotes:.
