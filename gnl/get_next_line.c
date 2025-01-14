@@ -11,7 +11,8 @@ char *get_next_line(int fd)
 
     
     // Check input and test if can read from fd
-    if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, NULL, 0) == -1)
+    // if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, NULL, 0) == -1)
+    if (fd < 0 || BUFFER_SIZE <= 0) // All read() must have BUFFER_SIZE parameter 
         return (NULL);
     
 
